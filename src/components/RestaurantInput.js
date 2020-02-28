@@ -54,7 +54,7 @@ const mapStateToProps = state => {
   return {restaurants: state.restaurants}
 }
 const mapDispatchToProps = dispatch=>{
-  return {addRestaurant: (this.state)=>dispatch(addRestaurant(this.state))}
+  return {addRestaurant: ()=>dispatch(addRestaurant(this.state))}
 }
 
 
